@@ -21,7 +21,12 @@ console.log('Challenge #2');
 // not a thing). If you did it right, you should run the loop 6 times with 1
 // console log per loop. That's called... a clue!
 
-// i = 1;
+i = 3;
+
+while(i <= 20) {
+    console.log(i)
+    i = i + 3;
+}
 
 
 
