@@ -43,7 +43,11 @@ console.log('Challenge #3');
 // (No extra credit will be given for wearing heels during this challenge.)
 
 
-
+i = 20;
+while(1 <= i) {
+ console.log(i)
+ i = i - 1;
+}
 
 
 console.log('Challenge #4');
