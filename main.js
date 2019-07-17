@@ -59,6 +59,14 @@ console.log('Challenge #5');
 // For the string, 'And getting better every day.', starting with the second
 // character, print out every third character.
 
+const newSentence = 'And getting better every day.';
+i = 1;
+while (i < newSentence.length){
+    console.log(newSentence[i])
+    i = i + 3;
+}
+
+
 
 console.log('Challenge #6');
 
