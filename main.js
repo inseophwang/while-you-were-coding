@@ -21,6 +21,11 @@ console.log('Challenge #2');
 // not a thing). If you did it right, you should run the loop 6 times with 1
 // console log per loop. That's called... a clue!
 
+// i = 1;
+
+
+
+
 
 console.log('Challenge #3');
 
@@ -33,10 +38,20 @@ console.log('Challenge #3');
 // (No extra credit will be given for wearing heels during this challenge.)
 
 
+
+
+
 console.log('Challenge #4');
 
 // For the string 'Boy howdy am I good at this!', console out the letters
 // individually.
+
+const sentence = 'Boy howdy am I good at this!';
+i = 0;
+while (i < sentence.length){
+    console.log(sentence[i]);
+    i = i +1;
+}
 
 
 console.log('Challenge #5');
