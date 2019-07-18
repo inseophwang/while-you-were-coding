@@ -96,6 +96,15 @@ console.log('Challenge #7');
 // For the string 'Whoa, I am the best!', console out the letters individually,
 // but also capitalize the letters in the third word.
 
+const whoaSentence = 'Whoa, I am the best!';
+
+i = 0;
+
+while(i <= whoaSentence.length){
+    console.log(whoaSentence.toUpperCase(3)[i])
+    i = i + 1;
+}
+
 
 console.log('Challenge #8');
 
@@ -103,6 +112,17 @@ console.log('Challenge #8');
 // For the string 'I am become death, destroyer of worlds.', console out the letters
 //  individually, but backwards. That is, the first console log should be
 // `.`, followed by `s`, followed by `d`, and so on.
+
+const deathSentence = 'I am become death, destroyer of worlds.'
+
+
+i = 39;
+while(deathSentence.length <= i){
+    console.log(deathSentence[i])
+    i = i - 1;
+}
+
+
 
 
 console.log('Challenge #9');
