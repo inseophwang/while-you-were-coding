@@ -142,7 +142,7 @@ console.log('Here today is');
 while(i < names.length) {
     if (names[i] === '|'){
         console.log('Here today is')
-        console.log(names[i])
+       
     } else{
         console.log(names[i])
     }
