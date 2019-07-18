@@ -116,8 +116,8 @@ console.log('Challenge #8');
 const deathSentence = 'I am become death, destroyer of worlds.'
 
 
-i = 39;
-while(deathSentence.length <= i){
+i = deathSentence.length - 1;
+while(0 <= i){
     console.log(deathSentence[i])
     i = i - 1;
 }
